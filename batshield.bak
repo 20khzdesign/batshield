@@ -1297,4 +1297,135 @@ Wire Wire Line
 	1150 6450 1450 6450
 Wire Wire Line
 	1150 6050 1450 6050
+$Comp
+L Conn_01x06_Male J?
+U 1 1 59DC6FFA
+P 3850 7000
+F 0 "J?" H 3850 7300 50  0000 C CNN
+F 1 "left down pins" H 3850 6600 50  0000 C CNN
+F 2 "" H 3850 7000 50  0001 C CNN
+F 3 "" H 3850 7000 50  0001 C CNN
+	1    3850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08_Male J?
+U 1 1 59DC720C
+P 4900 6900
+F 0 "J?" H 4900 7300 50  0000 C CNN
+F 1 "rigth donw pins" H 4900 6400 50  0000 C CNN
+F 2 "" H 4900 6900 50  0001 C CNN
+F 3 "" H 4900 6900 50  0001 C CNN
+	1    4900 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x07_Male J?
+U 1 1 59DC7310
+P 4900 5950
+F 0 "J?" H 4900 6350 50  0000 C CNN
+F 1 "rigth up pins" H 4900 5550 50  0000 C CNN
+F 2 "" H 4900 5950 50  0001 C CNN
+F 3 "" H 4900 5950 50  0001 C CNN
+	1    4900 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 7300 2    60   Input ~ 0
+A5
+Text GLabel 4150 7200 2    60   Input ~ 0
+A4
+Text GLabel 4150 7100 2    60   Input ~ 0
+A3
+Text GLabel 4150 7000 2    60   Input ~ 0
+A2
+Text GLabel 4150 6900 2    60   Input ~ 0
+A1
+Text GLabel 4150 6800 2    60   Input ~ 0
+A0
+$Comp
+L Conn_01x04_Male J?
+U 1 1 59DC8B73
+P 3850 6250
+F 0 "J?" H 3850 6450 50  0000 C CNN
+F 1 "left up pins" H 3850 5950 50  0000 C CNN
+F 2 "" H 3850 6250 50  0001 C CNN
+F 3 "" H 3850 6250 50  0001 C CNN
+	1    3850 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 6450 2    60   Input ~ 0
+VIN
+Text GLabel 4150 6350 2    60   Input ~ 0
+GND
+Text GLabel 4150 6250 2    60   Input ~ 0
+GND
+Text GLabel 4150 6150 2    60   Input ~ 0
++5V
+Text GLabel 3250 6300 2    60   Input ~ 0
+GND
+$Comp
+L GND #PWR?
+U 1 1 59DC9304
+P 3150 6350
+F 0 "#PWR?" H 3150 6100 50  0001 C CNN
+F 1 "GND" H 3150 6200 50  0000 C CNN
+F 2 "" H 3150 6350 50  0001 C CNN
+F 3 "" H 3150 6350 50  0001 C CNN
+	1    3150 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6300 3150 6300
+Wire Wire Line
+	3150 6300 3150 6350
+Wire Wire Line
+	4050 6150 4150 6150
+Wire Wire Line
+	4050 6250 4150 6250
+Wire Wire Line
+	4050 6350 4150 6350
+Wire Wire Line
+	4050 6450 4150 6450
+Wire Wire Line
+	4050 6800 4150 6800
+Wire Wire Line
+	4050 6900 4150 6900
+Wire Wire Line
+	4050 7000 4150 7000
+Wire Wire Line
+	4050 7100 4150 7100
+Wire Wire Line
+	4050 7200 4150 7200
+Wire Wire Line
+	4050 7300 4150 7300
+Text GLabel 5200 7300 2    60   Input ~ 0
+RX
+Text GLabel 5200 7200 2    60   Input ~ 0
+TX
+Text GLabel 5200 7100 2    60   Input ~ 0
+D2
+Text GLabel 5200 7000 2    60   Input ~ 0
+D3
+Text GLabel 5200 6900 2    60   Input ~ 0
+D4
+Text GLabel 5200 6800 2    60   Input ~ 0
+D5#
+Text GLabel 5200 6700 2    60   Input ~ 0
+D6#
+Text GLabel 5200 6600 2    60   Input ~ 0
+D7
+Text GLabel 5200 6250 2    60   Input ~ 0
+D8
+Text GLabel 5200 6150 2    60   Input ~ 0
+D9
+Text GLabel 5200 6050 2    60   Input ~ 0
+D10
+Text GLabel 5200 5950 2    60   Input ~ 0
+D11
+Text GLabel 5200 5850 2    60   Input ~ 0
+D12
+Text GLabel 5200 5750 2    60   Input ~ 0
+D13
+Text GLabel 5200 5650 2    60   Input ~ 0
+GND
 $EndSCHEMATC
