@@ -1,0 +1,25 @@
+preamp guitar pedal shield
+
+
+.include ../../../spice/LM741.MOD
+
+vin   in1   0     sin(0 0.02 5000 0 0)
+rin   in1   in    50k
+vp    p     0     dc 5v
+vn    p2    0     dc  2.5v
+
+
+r1    in    0     1meg
+r2    1     p2    1meg
+r3    1     2     4.7k
+r4    5     3     2.2k
+r5    3     4     100k
+r6    4     out   4.7k
+
+c1    in    1     0.1u
+c2    2     0     0.1n
+c3    5     0     4.7u
+c4    out   0     0.1n
+
+X1    2     3    p   0    4    LM741/NS    
+

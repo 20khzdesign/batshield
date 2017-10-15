@@ -1,0 +1,23 @@
+Guitar preamp
+
+vin in1   0    SIN(0 0.1 1000 0 0)   
+vp  p    0    dc 9
+
+Ro in1   in   7k
+R1 in    0    3meg
+R2 1     0    2.2k
+R3 p     2    6.8k
+R4 out   0    51k
+
+C1 2     out  4.7u
+C2 p     0    10u
+
+
+J1 2     in    1   J201
+
+
+.MODEL J201 njf
++VTO=-0.65 BETA=0.0018 LAMBDA=0.002628 RD=0.0001
++RS=0.0001 IS=1.3336e-12 CGS=3.37419e-12 
++CGD=3.53422e-12 PB=2.58279 FC=0.5 KF=1e-20 
++AF=0.2

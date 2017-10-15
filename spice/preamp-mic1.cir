@@ -1,0 +1,28 @@
+preamp mic
+
+vin in   0    SIN(0 0.1 1000 0 0)
+vp  p    0   5v
+
+
+r1    in    1    1.8k
+r3    p     2    68k
+r4    2     0    68k
+r5    4     0    1k
+r6    p     3    10k
+*r13   p     6    1.2k
+*r14   5     0    4.7k
+r15   out   0    100k
+
+
+c1    1     2    10u
+c2    2     0    1n
+c3    p     0    100u
+*c4    5     out  10u
+c4    3     out   10u
+
+Q1    3     2    4   mod1
+*Q2    5     3    6   mod2
+
+
+.model mod1 npn 
+*.model mod2 pnp

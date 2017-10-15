@@ -1,0 +1,23 @@
+preamp guitar 2
+
+
+.include ../../../spice/LM741.MOD
+
+vin   in1   0     sin(0 0.01 440 0 0)
+rin   in1   in    10
+vp    p     0     dc 4.5v
+vn    n     0     dc  -4.5v
+
+
+r1    1     0     1meg
+r2    2     out   100k
+r3    2     3     10k
+r4    out2  0     10k
+
+
+c1    in    1     47n
+c2    3     0     4.7u
+c3    out   out2  10u
+
+X1    1     2    p   n    out    LM741/NS    
+
