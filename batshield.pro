@@ -1,4 +1,4 @@
-update=jueves, 16 '16e' noviembre '16e' 2017, 15:21:12
+update=lunes, 20 '20e' noviembre '20e' 2017, 09:10:03
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=arduino-kicad-library-master
@@ -74,3 +64,14 @@ LibName32=valves
 LibName33=libs/arduino
 LibName34=arduino-kicad-library-master/arduino
 LibName35=libs/optoacopladores
+LibName36=libs/conectores
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
