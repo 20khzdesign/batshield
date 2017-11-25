@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:arduino
 LIBS:optoacopladores
 LIBS:conectores
+LIBS:batshield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -745,7 +746,7 @@ U 1 1 59E10ADB
 P 1750 1950
 F 0 "C3" H 1775 2050 50  0000 L CNN
 F 1 "0.1u" H 1775 1850 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1788 1800 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1788 1800 50  0001 C CNN
 F 3 "" H 1750 1950 50  0001 C CNN
 	1    1750 1950
 	0    1    1    0   
@@ -1220,7 +1221,7 @@ U 1 1 5A1189D4
 P 6050 1150
 F 0 "SW1" H 6100 1250 50  0000 L CNN
 F 1 "RESET" H 6050 1090 50  0000 C CNN
-F 2 "conectores:pulsador_spst_mini" H 6050 1350 50  0001 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h5mm" H 6050 1350 50  0001 C CNN
 F 3 "" H 6050 1350 50  0001 C CNN
 	1    6050 1150
 	1    0    0    -1  
