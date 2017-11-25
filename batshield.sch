@@ -240,7 +240,7 @@ F 3 "" H 5000 6950 50  0001 C CNN
 $EndComp
 Text GLabel 6300 6950 2    60   Input ~ 0
 +5V
-Text GLabel 4400 6700 0    60   Input ~ 0
+Text GLabel 4750 6950 0    60   Input ~ 0
 PORT-TX
 Text Notes 3800 6250 0    118  ~ 0
 MIDI out
@@ -950,41 +950,6 @@ F 3 "" H 4300 5600 50  0001 C CNN
 	1    4300 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L 2N3904 Q1
-U 1 1 5A0D692E
-P 4650 6700
-F 0 "Q1" H 4850 6775 50  0000 L CNN
-F 1 "2N3904" H 4850 6700 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 4850 6625 50  0001 L CIN
-F 3 "" H 4650 6700 50  0001 L CNN
-	1    4650 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R26
-U 1 1 5A0D6A1C
-P 4750 7150
-F 0 "R26" V 4830 7150 50  0000 C CNN
-F 1 "500" V 4750 7150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4680 7150 50  0001 C CNN
-F 3 "" H 4750 7150 50  0001 C CNN
-	1    4750 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR024
-U 1 1 5A0D6B0A
-P 4750 7400
-F 0 "#PWR024" H 4750 7150 50  0001 C CNN
-F 1 "GND" H 4750 7250 50  0000 C CNN
-F 2 "" H 4750 7400 50  0001 C CNN
-F 3 "" H 4750 7400 50  0001 C CNN
-	1    4750 7400
-	1    0    0    -1  
-$EndComp
-Text GLabel 4750 6450 1    60   Input ~ 0
-+5V
 $Comp
 L 6N138 U2
 U 1 1 5A0DD2FB
@@ -2111,24 +2076,13 @@ Wire Wire Line
 	5000 1950 4850 1950
 Connection ~ 4850 1950
 Wire Wire Line
-	4750 6900 4750 7000
-Wire Wire Line
-	4750 7300 4750 7400
-Wire Wire Line
-	4400 6700 4450 6700
-Wire Wire Line
 	5500 7150 5500 7400
-Connection ~ 4750 6950
-Wire Wire Line
-	4850 6950 4750 6950
 Wire Wire Line
 	5200 6950 5150 6950
 Wire Wire Line
 	5800 6950 5900 6950
 Wire Wire Line
 	6200 6950 6300 6950
-Wire Wire Line
-	4750 6500 4750 6450
 Wire Wire Line
 	2650 6400 2750 6400
 Wire Wire Line
@@ -2287,4 +2241,6 @@ NoConn ~ 5300 4200
 NoConn ~ 5300 4300
 NoConn ~ 5300 4500
 NoConn ~ 5300 4700
+Wire Wire Line
+	4750 6950 4850 6950
 $EndSCHEMATC
